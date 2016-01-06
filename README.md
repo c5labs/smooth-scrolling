@@ -6,8 +6,8 @@
 3. Click on the 'Install' button next to 'Smooth Scrolling Components', follow the install instructions.
 4. Exit edit mode on a long page and try scrolling.
 
-**Smooth scrolling is not enabled edit mode and is disabled on Apple devices as they nativly perform it.**
+**Smooth scrolling is not enabled while in edit mode, it is also disabled on Apple devices as they perform it natively.**
 
-The package is based from [jquery.nicescroll](http://nicescroll.areaaperta.com).
+The package is based on [jquery.nicescroll](http://nicescroll.areaaperta.com).
 ##License
 See the attached license file.
