@@ -52,10 +52,12 @@ class Controller extends Package
         Events::addListener('on_before_render', function ($e) {
             $c = Page::getCurrentPage();
 
-            $r = ResponseAssetGroup::get();
+            if ($c instanceof Page) {
+                $r = ResponseAssetGroup::get();
 
-            if (!$c->isEditMode()) {
-                $r->requireAsset('smooth-scrolling');
+                if (!$c->isEditMode()) {
+                    $r->requireAsset('smooth-scrolling');
+                }
             }
         });
     }
